@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20220427</pubdate>
+                <title>Public Water Supply Water Sources</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The North Carolina Department of Environment and Natural Resources, Division of Water Resources, Public Water Supply Section in cooperation with the NC Center for Geographic Information and Analysis, has developed the geographic data to provide accurate location of public water supply system sources in North Carolina.</abstract>
+            <purpose>These data were created for North Carolina's Source Water Assessment Program and to assist governmental agencies and others in making resource management decisions through use of a Geographic Information System (GIS).</purpose>
+            <supplinf>None</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>19950101</begdate>
+                    <enddate>20220420</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>2022 Update</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Annually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-84.349539</westbc>
+                <eastbc>-75.422578</eastbc>
+                <northbc>36.585582</northbc>
+                <southbc>33.739749</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>environment</themekey>
+                <themekey>health</themekey>
+                <themekey>inlandWaters</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>NC NC OneMap DEQ DWR Division of Water Resources Public Water Supply Drinking Water Wells Intakes North Carolina CGIA DIT Department of Information Technology Department of Environmental Quality</themekey>
+            </theme>
+            <theme>
+                <themekt>BLM-THEME</themekt>
+                <themekey>Hydrology</themekey>
+            </theme>
+            <place>
+                <placekt>BLM-STATE</placekt>
+                <placekey>North Carolina</placekey>
+            </place>
+        </keywords>
+        <accconst>This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.</accconst>
+        <useconst>https://www.nconemap.gov/pages/terms</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>NC DEQ, Division of Water Resources, Public Water Supply Section</cntorg>
+                    <cntper>Sean McGuire</cntper>
+                </cntorgp>
+                <cntpos>Environmental Specialist II</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>1611 Mail Service Center</address>
+                    <city>Raleigh</city>
+                    <state>North Carolina</state>
+                    <postal>27699-1611</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>919-707-9104</cntvoice>
+                <cntfax>919-733-3558</cntfax>
+                <cntemail>sean.mcguire@ncdenr.gov</cntemail>
+                <hours>8am to 5 pm</hours>
+                <cntinst>Email or telephone contact preferred.</cntinst>
+            </cntinfo>
+        </ptcontac>
+        <secinfo>
+            <secsys>None</secsys>
+            <secclass>Unclassified</secclass>
+            <sechandl>None</sechandl>
+        </secinfo>
+        <native>Esri ArcGIS 12.8.3.29751</native>
+    </idinfo>
+    <dataqual>
+        <logic>The attributes were supplied by the Public Water Supply Section of the Division of Water Resources relating to system type, source and system name, size, location, population served, and owner information.</logic>
+        <complete>Only active Public Water Supply systems and sources at time of publishing were included.</complete>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin/>
+                        <pubdate>20220427</pubdate>
+                        <title>NC Public Water Supply Water Sources</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>onLine</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20220427</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>NC Public Water Supply Water Sources</srccitea>
+                <srccontr>Locations of sites and facility names supplied by Public Water Supply Section</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>PWSS regions' GPS rover units data were transferred to a DWR server. Well locations were calculated by using Pathfinder software and base station files. The data were then converted to tabular text form so they could be imported into ArcGIS software for visual inspection purpose. The data were reviewed and necessary corrections made.</procdesc>
+                <procdate>20220420</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NC DEQ, Division of Water Resources, Public Water Supply Section</cntorg>
+                            <cntper>Sean McGuire</cntper>
+                        </cntorgp>
+                        <cntpos>Environmental Specialist II</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>1611 Mail Service Center</address>
+                            <city>Raleigh</city>
+                            <state>North Carolina</state>
+                            <postal>27699-1611</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>919-707-9104</cntvoice>
+                        <cntfax>919-733-3558</cntfax>
+                        <cntemail>sean.mcguire@ncdenr.gov</cntemail>
+                        <hours>8am to 5 pm</hours>
+                        <cntinst>Email or telephone contact preferred.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <detailed>
+            <enttyp>
+                <enttypl>Public_Water_Supply_Water_Sources</enttypl>
+                <enttypd>Active Public Water Supply Sources</enttypd>
+                <enttypds>NC DEQ, Division of Water Resources, Public Water Supply Section</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Federal_ID</attrlabl>
+                <attrdef>Federal Source Identification Number</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Unique identification numbers vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>State_ID</attrlabl>
+                <attrdef>State Identification for each source</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Identification codes may vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Source_Name</attrlabl>
+                <attrdef>The name of the source</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Names may vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Well_Yield_GPM</attrlabl>
+                <attrdef>Well Yield for Ground Water Sources in Gallons Per Minute</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Yield values varies in number.</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Well_Depth</attrlabl>
+                <attrdef>The depth of the well given in feet</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Depth values vary in number.</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>County</attrlabl>
+                <attrdef>The county in which the public water system is primarily located. Systems may include sources from multiple counties.</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>System county names vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Reg_Name</attrlabl>
+                <attrdef>The DEQ Regional Office name</attrdef>
+                <attrdefs>NC DEQ</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Names vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>PWS_ID</attrlabl>
+                <attrdef>Unique 7-digit identification number for PWS system preceded by 2 letter state abbreviation</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>PWS-ID values vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>PWS_Type</attrlabl>
+                <attrdef>The type of PWS System</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>Adjacent</edomv>
+                                                
+                        
+                        <edomvd>An adjacent water system is a type of community water system that has two or more systems that are adjacent and are owned or operated by the same supplier of water, and together serve 15 or more connections or 25 or more persons. Examples of adjacent water systems are two mobile home parks that together meet the community water system definition.</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources, Public Water Supply Section</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>Non-Community Transient</edomv>
+                                                
+                        
+                        <edomvd>A non-community water system that does not regularly serve 25 of the same persons over six months per year.</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources, Public Water Supply Section</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>Community</edomv>
+                                                
+                        
+                        <edomvd>A community water system serves 15 or more service connections or regularly serves at least 25 year-round residents</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources, Public Water Supply Section</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>Non-Transient, Non-Community</edomv>
+                                                
+                        
+                        <edomvd>A public water system that is not a community water system and regularly serves 25 of the same persons for at least 6 months a year.</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources, Public Water Supply Section</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>System_Name</attrlabl>
+                <attrdef>PWS system name</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>System Names vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>System_Address</attrlabl>
+                <attrdef>System Office address - Street</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>System street address values vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>System_City</attrlabl>
+                <attrdef>System Office address City</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>System City values vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>System_State</attrlabl>
+                <attrdef>System Office address State</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>System States vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>System_Zip</attrlabl>
+                <attrdef>System office address Zip Code</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>System zip codes vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>System_Connections</attrlabl>
+                <attrdef>Number of system connections to distribution system</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Number of System connections vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>System_Population</attrlabl>
+                <attrdef>Population served by the PWS system</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>System populations vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Owner</attrlabl>
+                <attrdef>System Owner Name</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Owner names vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Owner_Address</attrlabl>
+                <attrdef>Street Address of Owner</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Street Addresses vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Owner_City</attrlabl>
+                <attrdef>Address of Owner - City</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>City names vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Owner_State</attrlabl>
+                <attrdef>Address of Owner - State</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>States vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Owner_Zip</attrlabl>
+                <attrdef>Address of Owner Zip Code</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Zip Codes vary</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>WSW_Class</attrlabl>
+                <attrdef>Water Supply Watershed Classification for Surface Waters</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>WS-I</edomv>
+                                                
+                        
+                        <edomvd>Waters used as sources of water supply for drinking, culinary, or food processing purposes for those users desiring maximum protection for their water supplies. These waters are also protected for Class C uses. WS-I waters are those within natural and undeveloped watersheds in public ownership with no permitted point source (wastewater) discharges. All WS-I waters are HQW by definition.</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>WS-II</edomv>
+                                                
+                        
+                        <edomvd>Waters used as sources of potable water where a WS-I classification is not feasible. These waters are also protected for Class C uses. WS-II waters are generally in predominantly undeveloped watersheds and only general permits for discharges are allowed. All WS-II waters are HQW by definition.</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>WS-III</edomv>
+                                                
+                        
+                        <edomvd>Waters used as sources of potable water where a more protective WS-I or II classification is not feasible. These waters are also protected for Class C uses. WS-III waters are generally in low to moderately developed watersheds. General discharge permits only are allowed near the water supply intake whereas domestic and non-process industrial discharges are allowed in the rest of the water supply watershed.</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>WS-IV</edomv>
+                                                
+                        
+                        <edomvd>Waters used as sources of potable water where a WS-I, II or III classification is not feasible. These waters are also protected for Class C uses. WS-IV waters are generally in moderately to highly developed watersheds or Protected Areas, and involve no categorical restrictions on discharges.</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>WS-V</edomv>
+                                                
+                        
+                        <edomvd>Waters protected as water supplies which are generally upstream and draining to Class WS-IV waters or waters used by industry to supply their employees with drinking water or as waters formerly used as water supply. These waters are also protected for Class C uses. WS-V has no categorical restrictions on watershed development or wastewater discharges unlike other WS classifications and local governments are not required to adopt watershed protection ordinances.</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Intake_Location</attrlabl>
+                <attrdef>Intake Location for Surface Water Sources</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>Class 1</edomv>
+                                                
+                        
+                        <edomvd>The surface water intake is located in a small water supply reservoir.</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources, Public Water Supply Section</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>Class 3</edomv>
+                                                
+                        
+                        <edomvd>The surface water intake is located in a large multi-purpose water supply reservoir.</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources, Public Water Supply Section</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>Direct Stream</edomv>
+                                                
+                        
+                        <edomvd>The Surface Water Intake is located in stream.</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources, Public Water Supply Section</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Source_Availability</attrlabl>
+                <attrdef>Source Availability</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>The types are Permanent, Interim, Seasonal, Emergency, and Other.</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>Source_Type</attrlabl>
+                <attrdef>PWS Source Type</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>Surface Water</edomv>
+                                                
+                        
+                        <edomvd>Surface Water Intake</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources, Public Water Supply Section</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                    
+                    <edom>
+                                                
+                        
+                        <edomv>Groundwater</edomv>
+                                                
+                        
+                        <edomvd>Groundwater Well or Spring</edomvd>
+                                                
+                        
+                        <edomvds>NC DEQ, Division of Water Resources, Public Water Supply Section</edomvds>
+                                                
+                    
+                    </edom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+            <attr>
+                <attrlabl>PWS_Type_Description</attrlabl>
+                <attrdef>PWS Type Description</attrdef>
+                <attrdefs>NC DEQ, Division of Water Resources, Public Water Supply Section</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Descriptions vary in length</udom>
+                                        
+                
+                </attrdomv>
+                <attrmfrq>009</attrmfrq>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>The attributes were supplied by the Public Water Supply Section of the Division of Water Resources relating to system type, source and system name, size, location, population served, responsible party and owner information, and contact information.</eaover>
+        </overview>
+    </eainfo>
+    <metainfo>
+        <metd>20220523</metd>
+        <metfrd>20220429</metfrd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>North Carolina Center for Geographic Information and Analysis</cntorg>
+                    <cntper>David Giordano</cntper>
+                </cntorgp>
+                <cntpos>Database Administration</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>20322 Mail Service Center</address>
+                    <city>Raleigh</city>
+                    <state>North Carolina</state>
+                    <postal>27699</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>919-754-6580</cntvoice>
+                <cntfax>919-715-8551</cntfax>
+                <cntemail>dataq@its.nc.gov</cntemail>
+                <hours>8am to 5pm</hours>
+                <cntinst>Phone and electronic mail preferred</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
